@@ -1,0 +1,34 @@
+* {
+  border: 1px red solid;
+}
+
+main {
+  margin: 1em;
+  padding: 1em;
+  background-color: khaki;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  justify-items: center;
+  grid-gap: 10px;
+  
+}
+
+.card {
+  border: 2px black dotted;
+  width: 400px ;
+  height: 100px;
+  margin: 10px;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
