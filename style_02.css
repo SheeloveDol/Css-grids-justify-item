@@ -1,0 +1,31 @@
+main {
+  display: grid;
+  justify-items: center;
+  border: 3px blue solid;
+  min-width: 900px;
+  margin: auto;
+  grid-gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 150px);
+  
+}
+
+.box {
+  border: 1px red solid;
+}
+
+.box-1 {
+  background-color: aqua;
+  grid-area: 1 / 1 / span 1 / span 5;
+}
+  
+.box-2 {
+  background-color: burlywood;
+  grid-area: 2 / 1 / span 4 / span 1;
+}
+
+.box-3 {
+  background-color: cornflowerblue;
+  grid-area: 2 / 2 / span 4 / span 3
+}
+
